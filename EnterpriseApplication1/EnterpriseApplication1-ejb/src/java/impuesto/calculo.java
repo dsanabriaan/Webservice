@@ -22,7 +22,7 @@ public class calculo {
     public double calcular(@WebParam(name = "valor") double valor){
         
         double impuesto = 0;
-        double iva = 0.19;
+        double iva = 0.16;
         double total = 0;
         impuesto = valor * iva;
         total = valor + impuesto;
